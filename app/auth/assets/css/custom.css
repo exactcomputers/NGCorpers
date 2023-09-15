@@ -1,0 +1,67 @@
+.btn-nc {
+  background: #679436;
+  color: #fff;
+}
+
+.btn-nc:hover {
+  color: #fff;
+}
+
+.navbar-expand .navbar-brand,
+.navbar-expand .navbar-brand > img {
+  width: 3.5rem;
+}
+
+.text-primary,
+a.text-primary:hover,
+a.text-primary:focus {
+  color: #228822 !important;
+}
+
+/*--- Footer ---*/
+
+footer {
+  color: #363838;
+}
+
+footer .logo {
+  line-height: normal;
+}
+
+ul.quicklinks li {
+  display: inline-block;
+  list-style: none;
+  padding: 1px 10px;
+}
+
+ul.quicklinks li a {
+  font-size: 12.2px;
+  color: #228822;
+}
+
+footer .sitename,
+.socialicons {
+  padding-top: 25px;
+}
+
+ul.socialicons li {
+  display: inline-block;
+  list-style: none;
+  font-size: 18px;
+  color: #bdc3c7;
+  margin-left: 15px;
+}
+
+ul.socialicons li a {
+  color: #bdc3c7;
+}
+
+ul.socialicons li a:hover {
+  color: #363838;
+}
+
+small,
+.small {
+  font-size: 80%;
+  font-weight: 400;
+}

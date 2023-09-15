@@ -1,0 +1,21 @@
+{
+  "faqs": [
+    {
+      "question": "Could not verify my account?",
+      "answer": "After signup, an email verification link is sent to your email, follow the instruction to verify your email address, check your spam box if you do not receive it in your inbox or send us mail at: info@ngcorpers.com"
+    },
+    {
+      "question": "How do I create a post?",
+      "answer": "You can create a post immediately you signed up successfully and you're logged into your account"
+    },
+    {
+      "question": "Why is my created post not showing?",
+      "answer": "All post are subject to be reviewed, new created post are displayed after being reviewed by admins or moderators"
+    }
+  ],
+  "terms": "Terms and services",
+  "privacy": "Respect users perspective",
+  "guidelines": "Don't post sexual content",
+  "aboutUs": "We value integrity",
+  "contactUs": "Feel free to contact us on <strong><a href='https://wa.me/+2349056036781' target='__blank'>whatsapp</a></strong> or <strong><a href='tel:+2349056036781'>call us</a></strong> on 09056036781"
+}

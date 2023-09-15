@@ -1,0 +1,37 @@
+	RewriteEngine On
+
+	#RewriteBase /corpers/
+
+	RewriteCond %{REQUEST_FILENAME} !-d [NC]
+	RewriteCond %{REQUEST_FILENAME} !-f [NC]
+
+	#topic
+	RewriteRule ^topic/([^/.]+)$ ?page=single-topic&slug=$1 [L]
+
+	#account
+	RewriteRule ^account/([^/.]+)$ ?page=account&action=$1 [L]
+
+	#timeline
+	RewriteRule ^timeline/([^/.]+)/([^/.]+)$ ?page=timeline&uid=$1&name=$2 [L]
+
+	#category
+	RewriteRule ^cat/([^/.]+)$ ?page=categories&slug=$1 [L]
+
+	#page
+	RewriteRule ^en/([^/.]+)$ ?page=page&pagename=$1 [L]
+
+	#auth/login
+	RewriteRule ^login$ ?auth=login [L]
+
+	RewriteRule ^logout$ ?auth=logout [L]
+
+	#auth/register
+	RewriteRule ^signup$ ?auth=register [L]
+
+	#auth/reset-password
+	RewriteRule ^reset$ ?auth=reset-password [L]
+
+	#auth/verify
+	RewriteRule ^verify$ ?auth=verify [L]
+
+	RewriteRule ^([\w-]+)$ index.php?page=$1 [L]

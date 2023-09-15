@@ -1,0 +1,206 @@
+a,
+a:hover {
+  color: #679436;
+}
+
+.btn-nc {
+  background: #679436;
+  color: #fff;
+}
+
+.btn-nc:hover {
+  color: #fff;
+}
+
+.dropdown ul.dropdown-menu {
+  display: none;
+}
+
+ul.dropdown-menu li {
+  list-style-type: none;
+  padding: 1rem;
+  text-decoration: none;
+  transition-duration: 0.5s;
+}
+
+ul.dropdown-menu li a {
+  color: #182730;
+}
+
+.dropdown:hover ul.dropdown-menu {
+  /* position: absolute;
+  right: -20px;
+  visibility: visible;
+  opacity: 1;
+  display: inline-block; */
+  visibility: visible;
+  display: inline-block;
+  padding: 15px 0 10px;
+  width: 200px;
+  position: absolute;
+  z-index: 7;
+  top: auto;
+  left: 0;
+}
+
+.dropdown ul {
+  outline: 0;
+  border: transparent;
+  background: 0 0;
+  font-weight: 500;
+  line-height: 22px;
+  font-size: 16px;
+  padding: 8px 22px 5px 10px;
+  color: #182730;
+  cursor: pointer;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  -webkit-transition: color 0.2s linear;
+  transition: color 0.2s linear;
+  letter-spacing: 0.01em;
+}
+
+.dropdown ul li {
+  background-color: #fff;
+  border: 0;
+  color: #333;
+  padding: 10px;
+}
+
+.dropdown ul:hover {
+  color: #679436;
+}
+
+.dropdown::after,
+.dropdown::before {
+  content: "";
+  pointer-events: none;
+}
+
+.dropdown::before {
+  content: "";
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 12px;
+  height: 12px;
+  background: #fff;
+}
+
+.dropdown::after {
+  content: "";
+  background-image: url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='utf-8'%3F%3E%3C!-- Generator: Adobe Illustrator 23.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0) --%3E%3Csvg version='1.1' id='Layer_25' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 81 45' style='enable-background:new 0 0 81 45;' xml:space='preserve'%3E%3Cstyle type='text/css'%3E .st0%7Bfill:%23666F74;%7D%0A%3C/style%3E%3Cg%3E%3Cpath class='st0' d='M40.5,45c-1.15,0-2.3-0.44-3.18-1.32l-36-36c-1.76-1.76-1.76-4.61,0-6.36c1.76-1.76,4.61-1.76,6.36,0 L40.5,34.13L73.32,1.32c1.76-1.76,4.61-1.76,6.36,0c1.76,1.76,1.76,4.61,0,6.36l-36,36C42.8,44.56,41.65,45,40.5,45z'/%3E%3C/g%3E%3C/svg%3E%0A");
+  width: 12px;
+  height: 7px;
+  line-height: 1;
+  right: 0;
+  position: absolute;
+  top: 50%;
+  margin-top: -4px;
+}
+
+ol#all-states li {
+  list-style-type: none;
+  padding: 3px;
+  display: inline-block;
+}
+
+/* Style the buttons that are used to open and close the accordion panel */
+.accordion {
+  background-color: #228b22;
+  -webkit-border-radius: 4px 4px 0 0;
+  -moz-border-radius: 4px 4px 0 0;
+  border-radius: 4px 4px 0 0;
+  color: #fff;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+}
+
+[data-toggle="collapse"]::after {
+  /* display: inline-block; */
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  content: "\f054";
+  transform: rotate(90deg);
+  transition: all linear 0.25s;
+  float: right;
+}
+
+[data-toggle="collapse"].collapsed::after {
+  transform: rotate(0deg);
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+button.active,
+.accordion:hover {
+  background-color: #ccc;
+  color: #000;
+  border: none;
+  outline: none;
+}
+
+/* Style the accordion collapse. Note: hidden by default */
+.collapse {
+  padding: 15px;
+  background-color: white;
+  display: none;
+  overflow: hidden;
+}
+
+/* ckeditor custom style */
+
+.ck.ck-list__item .ck-button.ck-on {
+  background: #679436 !important;
+  color: #fff;
+}
+
+/* button.ck.ck-button.ck-on.ck-button_with-text.ck-dropdown__button {
+  color: #228b22;
+} */
+
+.ck.ck-button.ck-on,
+a.ck.ck-button.ck-on {
+  color: #228b22 !important;
+}
+
+svg.fill {
+  fill: #228b22 !important;
+}
+
+.badge-icon {
+  display: flex;
+  flex-shrink: 0;
+  align-items: center;
+  justify-content: center;
+}
+
+.badge-icon svg {
+  font-size: 3.5em;
+}
+
+.badge-icon .svg-icon {
+  height: 1em;
+  width: 1em;
+  line-height: 1;
+  display: inline-flex;
+  position: relative;
+  vertical-align: -0.125em;
+  fill: currentColor;
+  flex-shrink: 0;
+  overflow: visible;
+}
+
+.tt-alert.tt-alert-primary {
+  background-color: #d1e4f9;
+  border-left: 2px solid #6ea532;
+}
